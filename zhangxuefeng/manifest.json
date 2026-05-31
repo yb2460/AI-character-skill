@@ -1,0 +1,125 @@
+{
+  "manifest_version": "1",
+  "id": "meta-skill.celebrity.zhangxuefeng",
+  "kind": "meta-skill",
+  "character": "celebrity",
+  "research_profile": "budget-friendly",
+  "preset": "dot.celebrity.v1",
+  "display_name": "张雪峰",
+  "entrypoints": {
+    "default": "SKILL.md",
+    "work": "work_skill.md",
+    "persona": "persona_skill.md"
+  },
+  "artifacts": [
+    "SKILL.md",
+    "work.md",
+    "persona.md",
+    "meta.json",
+    "manifest.json"
+  ],
+  "capabilities": [
+    "persona",
+    "work"
+  ],
+  "engine": {
+    "name": "dot-skill",
+    "kind": "meta-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    }
+  },
+  "toolchain": {
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile": "budget-friendly",
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    },
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ]
+  },
+  "install": {
+    "compatible_runtimes": [
+      "claude-code",
+      "openclaw",
+      "hermes",
+      "codex"
+    ],
+    "min_schema_version": "3",
+    "installers": {
+      "claude-code": "tools/install_claude_generated_skill.py",
+      "openclaw": "tools/install_openclaw_generated_skill.py",
+      "codex": "tools/install_codex_generated_skill.py"
+    },
+    "slash_commands": {
+      "default": "celebrity-zhangxuefeng",
+      "work": "celebrity-zhangxuefeng-work",
+      "persona": "celebrity-zhangxuefeng-persona"
+    }
+  }
+}
