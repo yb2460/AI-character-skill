@@ -28,6 +28,7 @@ Not surface-level mimicry. Not keyword-triggered replies. **Cognitive architectu
 |------|------|---------|
 | [张雪峰](./zhangxuefeng/SKILL.md) Zhang Xuefeng | 教育专家 Education Expert | `/celebrity-zhangxuefeng` |
 | [濑户环奈](./seto-kanna/SKILL.md) Seto Kanna | 艺人/偶像 Entertainer | `/seto-kanna` |
+| [Elon Musk](./elon-musk/SKILL.md) 埃隆·马斯克 | 企业家/创新者 Entrepreneur | `/celebrity-elon-musk` |
 
 ---
 
