@@ -26,10 +26,10 @@ jobs:
         run: |
           chmod +x gradlew 2>/dev/null || true
           gradle wrapper --gradle-version 8.5
-          ./gradlew assembleRelease
+          ./gradlew assembleDebug
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: AI角色聊天-APK
-          path: android-app/app/build/outputs/apk/release/*.apk
+          path: android-app/app/build/outputs/apk/debug/*.apk
