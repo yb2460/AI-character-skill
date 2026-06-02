@@ -1,3 +1,6 @@
 [submodule "ai-hedge-fund"]
 	path = ai-hedge-fund
 	url = https://github.com/virattt/ai-hedge-fund.git
+[submodule "tong-jincheng"]
+	path = tong-jincheng
+	url = https://github.com/hotcoffeeshake/tong-jincheng-skill.git

@@ -32,6 +32,7 @@ Not surface-level mimicry. Not keyword-triggered replies. **Cognitive architectu
 | [濑户环奈](./seto-kanna/SKILL.md) | 艺人/偶像 | `/seto-kanna` |
 | [Elon Musk](./elon-musk/SKILL.md) | 企业家/创新者 | `/celebrity-elon-musk` |
 | [Steve Jobs](./steve-jobs/SKILL.md) | 产品大师 | `/celebrity-steve-jobs` |
+| [童锦程](./tong-jincheng/SKILL.md) | 深情祖师爷/人际关系 | `/tong-jincheng` |
 
 ### 📱 手机 App 角色 | Mobile App Characters
 
