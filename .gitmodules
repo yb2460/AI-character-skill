@@ -4,3 +4,6 @@
 [submodule "tong-jincheng"]
 	path = tong-jincheng
 	url = https://github.com/hotcoffeeshake/tong-jincheng-skill.git
+[submodule "xinqingnian"]
+	path = xinqingnian
+	url = https://github.com/SamadhiFire/xinqingnian-skill.git
