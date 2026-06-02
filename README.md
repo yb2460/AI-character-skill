@@ -46,7 +46,7 @@ Not surface-level mimicry. Not keyword-triggered replies. **Cognitive architectu
 | 🦈 Bill Ackman | 激进投资者 |
 | 🔍 Michael Burry | 逆向投资者（大空头） |
 
-> 🏦 6位投资大师角色基于 **[yb2460/ai-hedge-fund](https://github.com/yb2460/ai-hedge-fund)** 蒸馏 — Fork from [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) (59k⭐)
+> 🏦 投资大师角色基于 **[ai-hedge-fund](./ai-hedge-fund)** 蒸馏 — 原项目 [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) (59k⭐)
 
 ---
 
