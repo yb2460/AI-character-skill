@@ -37,6 +37,9 @@ Not surface-level mimicry. Not keyword-triggered replies. **Cognitive architectu
 | [吴亦凡](./kris-wu/SKILL.md) | 公众形象/品牌管理 | `/celebrity-kris-wu` |
 | [张国荣](./leslie-cheung/SKILL.md) | 香港巨星/艺术家 | `/celebrity-leslie-cheung` |
 | [张元英](./jang-wonyoung/SKILL.md) | K-pop偶像/IVE | `/celebrity-jang-wonyoung` |
+| [王俊凯](./wang-junkai/SKILL.md) | TFBOYS队长/多栖艺人 | `/celebrity-wang-junkai` |
+| [易烊千玺](./yiyangqianxi/SKILL.md) | 演员/手艺人 | `/celebrity-yiyangqianxi` |
+| [王源](./wang-yuan/SKILL.md) | 音乐人/伯克利 | `/celebrity-wang-yuan` |
 
 ### 📱 手机 App 角色 | Mobile App Characters
 

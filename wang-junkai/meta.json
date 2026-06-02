@@ -1,0 +1,189 @@
+{
+  "name": "Wang Junkai",
+  "slug": "wang-junkai",
+  "character": "celebrity",
+  "category": "celebrity",
+  "version": "v1",
+  "created": "2026-06-02",
+  "language": "zh",
+  "trigger_words": [
+    "王俊凯",
+    "Karry Wang",
+    "用王俊凯的方式",
+    "队长",
+    "天道酬勤",
+    "小凯",
+    "凯凯",
+    "俊凯",
+    "大哥"
+  ],
+  "tags": [
+    "TFBOYS",
+    "队长",
+    "天道酬勤",
+    "坚持",
+    "正能量",
+    "青年偶像",
+    "演员",
+    "歌手"
+  ],
+  "summary": "王俊凯，1999年生于重庆，TFBOYS组合队长，演员/歌手。核心信条：天道酬勤、坚持至上、队长担当、正能量传递。金句：\"放弃不难但坚持一定很酷\"\"爱中国要大于我\"。",
+  "persona_core": {
+    "identity": "TFBOYS队长、多栖艺人、青年偶像",
+    "worldview": "天道酬勤，坚持至上",
+    "decision_style": "来什么事做什么事，顺其自然",
+    "values": [
+      "努力",
+      "坚持",
+      "责任",
+      "团队",
+      "爱国"
+    ],
+    "speech_style": "阳光简洁、正能量格言体、偶尔细腻"
+  },
+  "archetype": "the_captain",
+  "research_profile": "budget-friendly",
+  "display_name": "Wang Junkai",
+  "type": "celebrity",
+  "lifecycle": {
+    "status": "active",
+    "created_at": "2026-06-02T08:04:36.596014+00:00",
+    "updated_at": "2026-06-02T08:04:36.596014+00:00",
+    "version": "v1"
+  },
+  "generation": {
+    "engine": "dot-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    },
+    "created_from": [],
+    "corrections_count": 0
+  },
+  "classification": {
+    "gallery_category": "Celebrity",
+    "tags": [
+      "TFBOYS",
+      "队长",
+      "天道酬勤",
+      "坚持",
+      "正能量",
+      "青年偶像",
+      "演员",
+      "歌手"
+    ],
+    "language": "en"
+  },
+  "source_context": {
+    "domain": "public",
+    "relationship_to_user": "public_figure",
+    "is_real_person": true,
+    "is_public_figure": true,
+    "is_fictional": false
+  },
+  "engine": {
+    "name": "dot-skill",
+    "kind": "meta-skill",
+    "character": "celebrity",
+    "research_profile": "budget-friendly",
+    "preset": "dot.celebrity.v1",
+    "prompt_bundle": {
+      "preset": "dot.celebrity.v1",
+      "intake": "prompts/celebrity/intake.md",
+      "research": "prompts/celebrity/research.md",
+      "work_analyzer": "prompts/work_analyzer.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "work_builder": "prompts/work_builder.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md",
+      "merger": "prompts/celebrity/merger.md",
+      "correction_handler": "prompts/correction_handler.md"
+    },
+    "research_profile_bundle": {
+      "research": "prompts/celebrity/research.md",
+      "persona_analyzer": "prompts/celebrity/persona_analyzer.md",
+      "persona_builder": "prompts/celebrity/persona_builder.md"
+    },
+    "research_profile_references": [],
+    "merge_strategy": "compact",
+    "quality_profile": "budget-friendly",
+    "knowledge_dirs": [
+      "docs",
+      "messages",
+      "emails",
+      "research/raw",
+      "research/merged",
+      "research/reviews",
+      "transcripts",
+      "subtitles"
+    ],
+    "storage_root": "skills/celebrity",
+    "research_tools": {
+      "subtitle_downloader": "tools/research/download_subtitles.sh",
+      "subtitle_cleaner": "tools/research/srt_to_transcript.py",
+      "research_merger": "tools/research/merge_research.py",
+      "quality_check": "tools/research/quality_check.py"
+    }
+  },
+  "schema_version": "3",
+  "kind": "meta-skill",
+  "subtype": null,
+  "preset": "dot.celebrity.v1",
+  "id": "meta-skill.celebrity.wang-junkai",
+  "artifacts": {
+    "combined_skill": "SKILL.md",
+    "work_skill": "work_skill.md",
+    "persona_skill": "persona_skill.md",
+    "work_doc": "work.md",
+    "persona_doc": "persona.md",
+    "manifest": "manifest.json",
+    "combined_name": "celebrity_wang-junkai",
+    "work_name": "celebrity_wang-junkai_work",
+    "persona_name": "celebrity_wang-junkai_persona",
+    "combined_command": "celebrity-wang-junkai",
+    "work_command": "celebrity-wang-junkai-work",
+    "persona_command": "celebrity-wang-junkai-persona"
+  },
+  "compat": {
+    "legacy_command": "/create-icon",
+    "legacy_storage_root": "skills/celebrity",
+    "legacy_type": "celebrity"
+  },
+  "created_at": "2026-06-02T08:04:36.596014+00:00",
+  "updated_at": "2026-06-02T08:04:36.596014+00:00",
+  "corrections_count": 0
+}
