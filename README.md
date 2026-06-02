@@ -24,12 +24,29 @@ Not surface-level mimicry. Not keyword-triggered replies. **Cognitive architectu
 
 ## 已收录角色 · Featured Characters
 
+### Claude Code 角色 | Claude Code Skills
+
 | 角色 Character | 类型 Type | 触发命令 Trigger |
 |------|------|---------|
-| [张雪峰](./zhangxuefeng/SKILL.md) Zhang Xuefeng | 教育专家 Education Expert | `/celebrity-zhangxuefeng` |
-| [濑户环奈](./seto-kanna/SKILL.md) Seto Kanna | 艺人/偶像 Entertainer | `/seto-kanna` |
-| [Elon Musk](./elon-musk/SKILL.md) 埃隆·马斯克 | 企业家/创新者 Entrepreneur | `/celebrity-elon-musk` |
-| [Steve Jobs](./steve-jobs/SKILL.md) 史蒂夫·乔布斯 | 产品大师/创新者 Product Visionary | `/celebrity-steve-jobs` |
+| [张雪峰](./zhangxuefeng/SKILL.md) | 教育专家 | `/celebrity-zhangxuefeng` |
+| [濑户环奈](./seto-kanna/SKILL.md) | 艺人/偶像 | `/seto-kanna` |
+| [Elon Musk](./elon-musk/SKILL.md) | 企业家/创新者 | `/celebrity-elon-musk` |
+| [Steve Jobs](./steve-jobs/SKILL.md) | 产品大师 | `/celebrity-steve-jobs` |
+
+### 📱 手机 App 角色 | Mobile App Characters
+
+> 打开即聊: **[yb2460.github.io/AI-character-skill](https://yb2460.github.io/AI-character-skill/)** — 添加到主屏幕即安装
+
+| 角色 | 类型 |
+|------|------|
+| 💰 Warren Buffett | 价值投资之父 |
+| 🧠 Charlie Munger | 多元思维模型大师 |
+| 🔮 Cathie Wood | 颠覆式创新投资 |
+| 🎯 Druckenmiller | 宏观对冲大师 |
+| 🦈 Bill Ackman | 激进投资者 |
+| 🔍 Michael Burry | 逆向投资者（大空头） |
+
+> 🏦 6位投资大师角色基于 **[yb2460/ai-hedge-fund](https://github.com/yb2460/ai-hedge-fund)** 蒸馏 — Fork from [virattt/ai-hedge-fund](https://github.com/virattt/ai-hedge-fund) (59k⭐)
 
 ---
 
