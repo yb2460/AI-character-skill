@@ -1,0 +1,35 @@
+name: Build Android APK
+
+on:
+  push:
+    paths:
+      - 'android-app/**'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v3
+
+      - name: Build APK
+        working-directory: android-app
+        run: |
+          chmod +x gradlew 2>/dev/null || true
+          gradle wrapper --gradle-version 8.5
+          ./gradlew assembleRelease
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: AI角色聊天-APK
+          path: android-app/app/build/outputs/apk/release/*.apk

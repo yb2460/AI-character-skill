@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.AICharacter" parent="android:Theme.Material.NoActionBar">
+        <item name="android:statusBarColor">#1a1a2e</item>
+        <item name="android:navigationBarColor">#1a1a2e</item>
+    </style>
+    <color name="primary">#1a1a2e</color>
+    <color name="white">#FFFFFF</color>
+</resources>
