@@ -7,3 +7,9 @@
 [submodule "xinqingnian"]
 	path = xinqingnian
 	url = https://github.com/SamadhiFire/xinqingnian-skill.git
+[submodule "guodegang"]
+	path = guodegang
+	url = https://github.com/ByteRax/guodegang-skills.git
+[submodule "fengge-wangming"]
+	path = fengge-wangming
+	url = https://github.com/rottenpen/fengge-wangmingtianya-perspective.git
