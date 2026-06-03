@@ -41,7 +41,7 @@ Not surface-level mimicry. Not keyword-triggered replies. **Cognitive architectu
 | [易烊千玺](./yiyangqianxi/SKILL.md) | 演员/手艺人 | `/celebrity-yiyangqianxi` |
 | [王源](./wang-yuan/SKILL.md) | 音乐人/伯克利 | `/celebrity-wang-yuan` |
 | [郭德纲](./guodegang/SKILL.md) | 相声大师 | `/guodegang` |
-| [风格·王明](./fengge-wangming/SKILL.md) | 天涯视角 | `/fengge-wangming` |
+| [峰哥](./fengge-wangming/SKILL.md) | 天涯视角 | `/fengge-wangming` |
 
 ### 📱 手机 App 角色 | Mobile App Characters
 
